@@ -1,7 +1,5 @@
 [English](README.md) | **Français**
 
-<img src="assets/profile.jpg" alt="Sofien Nefzi" width="160" align="right">
-
 # Bonjour, je suis Sofien Nefzi
 
 **Data & AI Solutions Engineer** basé à Tunis, en Tunisie. Ouvert au télétravail et à la relocalisation.
