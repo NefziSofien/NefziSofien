@@ -1,3 +1,5 @@
+**English** | [Français](README.fr.md)
+
 # Hi, I'm Sofien Nefzi
 
 **Data & AI Solutions Engineer** based in Tunis, Tunisia. Open to remote roles and relocation.
