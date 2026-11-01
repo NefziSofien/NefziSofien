@@ -16,6 +16,7 @@ Data & AI Solutions Engineer, based in Tunis.
 
 | Repository | What it is |
 | --- | --- |
+| [claude-code-orchestra](https://github.com/NefziSofien/claude-code-orchestra) | Orchestrator for big coding tasks: splits the work, runs 0 to 4 parallel workers, tracks state in one compact file and verifies the final result. Python, tested on Linux, macOS and Windows. |
 | [Ai-Agency](https://github.com/NefziSofien/Ai-Agency) | Self-hosted multi-agent system for a marketing agency: specialised agents (strategy, content, SEO, analytics...), a brand consistency check and human approval before publishing. FastAPI, Next.js, n8n, pgvector, Langfuse. |
 
 Most of my client and employer work lives in private repositories. I'm happy to walk through the architecture and code on a call.

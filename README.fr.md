@@ -16,6 +16,7 @@ Data & AI Solutions Engineer, basé à Tunis.
 
 | Dépôt | Description |
 | --- | --- |
+| [claude-code-orchestra](https://github.com/NefziSofien/claude-code-orchestra) | Orchestrateur pour les grosses tâches de code : découpe le travail, lance de 0 à 4 agents en parallèle, suit l'état dans un seul fichier compact et vérifie le résultat final. Python, testé sur Linux, macOS et Windows. |
 | [Ai-Agency](https://github.com/NefziSofien/Ai-Agency) | Système multi-agents auto-hébergé pour une agence marketing : agents spécialisés (stratégie, contenu, SEO, analytics...), contrôle de cohérence de marque et validation humaine avant publication. FastAPI, Next.js, n8n, pgvector, Langfuse. |
 
 L'essentiel de mon travail pour mes clients et employeurs se trouve dans des dépôts privés. Je présente volontiers l'architecture et le code lors d'un échange.
