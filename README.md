@@ -9,6 +9,7 @@ Data & AI Solutions Engineer, based in Tunis.
 ## What I'm working on
 
 - **Multi-agent systems** with LangGraph, where agents prepare the work and a human approves it before anything leaves the system.
+- **Testing LLM features in CI:** text-to-SQL checked on results and data safety before it ships, not on how the SQL looks.
 - **AI inside live sessions:** real-time guidance delivered during video calls (LiveKit + LLM).
 - **Reporting as code:** Grafana dashboards versioned in Git and provisioned automatically, reading from PostgreSQL views that keep personal data out.
 
@@ -16,6 +17,7 @@ Data & AI Solutions Engineer, based in Tunis.
 
 | Repository | What it is |
 | --- | --- |
+| [querywarden](https://github.com/NefziSofien/querywarden) | CI gate for text-to-SQL features on PostgreSQL: runs the generated SQL on a test database with a read-only role, compares results with trusted queries, and fails the build on accuracy drops or data leaks. Python, GitHub Action, on PyPI as `querywarden-cli`. Example: [querywarden-example](https://github.com/NefziSofien/querywarden-example). |
 | [claude-code-orchestra](https://github.com/NefziSofien/claude-code-orchestra) | Orchestrator for big coding tasks: splits the work, runs 0 to 4 parallel workers, tracks state in one compact file and verifies the final result. Python, tested on Linux, macOS and Windows. |
 | [Ai-Agency](https://github.com/NefziSofien/Ai-Agency) | Self-hosted multi-agent system for a marketing agency: specialised agents (strategy, content, SEO, analytics...), a brand consistency check and human approval before publishing. FastAPI, Next.js, n8n, pgvector, Langfuse. |
 
